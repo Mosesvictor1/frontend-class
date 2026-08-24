@@ -1,0 +1,191 @@
+.why-choose-us{
+    background-color: rgb(194, 194, 247);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.pp{
+    background-color: rgb(171, 171, 250);
+    padding-block: 10px;
+    padding-inline: 20px;
+    border-radius: 100px;
+    color: blue;
+}
+
+.features{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.p2{
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+.grid-container{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 30px;
+
+}
+.grid-container div{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.grid-container div p:first-child{
+    background-color: rgb(150, 150, 239);
+    width: 20px;
+    padding: 20px;
+    border-radius: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.grid-container div h1{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.grid-container div p:last-child{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#about-us{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 50px;
+}
+.about-left{
+    width: 45%;
+    position: relative;
+}
+
+.image1{
+    width: 100%;
+    border-radius: 40px;
+}
+.image2{
+    width: 300px;
+    border-radius: 40px;
+    position: absolute;
+    right: -20px;
+    bottom: 5px;
+    border: 5px solid white;
+
+}
+
+.about-right{
+    width: 45%;
+}
+
+.line{
+    width: 1000px;
+    height: 10px;
+    background-color: gray;
+}
+
+.line div{
+    background-color: blue;
+    width: 800px;
+    height: 10px;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+
+#work-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+}
+
+.p1{
+    background-color: rgb(199, 199, 250);
+    padding-block: 10px;
+    padding-inline: 20px;
+    border-radius: 100px;
+    color: blue;
+}
+
+.p2{
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+.work-buttons{
+    display: flex;
+    gap: 10px;
+}
+.work-buttons button{
+    border-radius: 20px;
+    border: 1px solid blue;
+
+}
+.all{
+    background-color: blue;
+    color: white;
+}
+
+.work-buttons button:hover{
+    background-color: blue;
+    color: white ;
+}
+
+.pricing-box{
+    display: flex;
+    gap: 20px;
+}
+
+.pricing-box div{
+    padding: 20px;
+    border-radius: 20px; 
+    background-color: white;
+}
+.pricing-box div p:first-child{
+    color: blue;
+}
+.pricing-box div ul li{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pricing-box div button{
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(78, 190, 246);
+}
+
+.pricing-box div:first-child button{
+    background-color: white;
+    border: 2px solid blue;
+}
+
+.pricing-box div:last-child button{
+    background-color: orange;
+}
+.pricing-box div:nth-child(2){
+    background-color: blue;
+    color: white;
+}
+.pricing-box div:nth-child(2) p{
+    color: white;
+}
